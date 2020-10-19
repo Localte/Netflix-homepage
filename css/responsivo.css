@@ -1,0 +1,31 @@
+@media screen and (max-width:700px){
+    header .container{
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    nav{
+        padding: 20px;
+    }
+
+    .filme-principal .container{
+        width: 50%;
+        font-size: 20px;
+    }
+
+    .filme-principal .container{
+        width: 50%;
+        font-size: 20px;
+    }
+    
+    .filme-principal .sinopse-principal{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .filme-principal .botao{
+        margin: 10px 20px 0px 0px;
+        padding: 20px;
+    }
+}

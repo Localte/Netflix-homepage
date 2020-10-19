@@ -1,0 +1,100 @@
+:root{
+    --vermelho:#E50914;
+    --preto:#141414;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/*Elemento principal*/
+body{
+    background-color: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    padding: 5px 5px 5px 0px;
+}
+
+header .logolink{
+    color: var(--vermelho);
+    font-family: 'Arial Black';
+    font-size: 40px;
+}
+
+header nav a{
+    color: #AAA;
+    padding: 20px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*Filme principal*/
+.filme-principal{
+    height: 96vh;
+    font-size: 40px;
+    background:  url('../imgs/stranger-things-wallpaper.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6), 100%);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .container{
+    margin-bottom: 10%;
+    width: 80%;
+}
+
+.filme-principal .sinopse-principal{
+    font-size: 20px;
+}
+
+.filme-principal .titulo-principal{
+    padding-bottom: 20px;
+}
+
+.filme-principal .botao{
+    margin: 40px 20px 0px 0px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: none;
+    
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.filme-principal .botao:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.botao i{
+    margin-right: 10px;
+}
+
+.container{
+    margin-left: 30px;
+}
+
+/*Carrosel Filmes*/
+
+.box-filme{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
